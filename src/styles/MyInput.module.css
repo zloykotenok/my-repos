@@ -1,0 +1,12 @@
+.myInput{
+    display: flex;
+    width: 344px;
+    padding: 16px 16px;
+    height: 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F6F8FF;
+    border: none;
+    font-family: Montserrat;
+}

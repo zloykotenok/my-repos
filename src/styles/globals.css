@@ -1,0 +1,313 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.kingName{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.post_glav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  height: 75vh;
+}
+.forma_my{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 168px;
+  width: 404px;
+}
+.a_king{
+  width: 185px;
+  color: #868686;
+  font-family: Montserrat;
+  font-size: 14px;
+  text-decoration: none;
+}
+.list_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 200%; 
+  padding: 0px 80px;
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+}
+.list_logo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.but1{
+  width: 91px;
+  height: 44px;
+  padding: 0px 16px;
+  gap: 10px;
+  flex-shrink: 0;
+  align-items: center;
+  border-radius: 8px;
+  background:#2C2C2C;
+  color:#FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 16px;
+}
+.but2{
+  width: 134px;
+  height: 44px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background:#F6F8FF;
+  color: var(--Primary-text-color, #616161);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.king_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 60px;
+}
+.main_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding: 31px 38px;
+  gap: 14px;
+  border-radius: 28px;
+  background: var(--Main-color, #FFF);
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+}
+.p_glav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  color: var(--Main-color, #ffffff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  z-index: 6;
+}
+.yoyo{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.p_glav2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  color: var(--Main-color, #ffffff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  z-index: 6;
+  margin-top: 475px;
+}
+.main_div2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 700px;
+  padding: 31px 38px;
+  gap: 14px;
+  border-radius: 28px;
+  background: var(--Main-color, #FFF);
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+}
+.p_glav3{
+  color: var(--Main-color-dark, #2C2C2C);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.p_glav4{
+  color: var(--Main-color-dark, #2C2C2C);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; 
+}
+.king_footer{
+  height: 135px;
+  display: flex;
+  padding: 0px 24px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: var(--Main-color, #FFF);
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+  padding: 0 150px;
+}
+.footer_div{
+  color: var(--Main-color-dark, #2C2C2C);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.footer_div2{
+  color: var(--Main-color-dark, #2C2C2C);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.p_style{
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.azkan_div{
+  display: flex;
+  width: 135px;
+  height: 44px;
+  align-items: center;
+  gap: 10px;
+  margin-right: 150px;
+}
+.azkan_div1{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+}
+.NightDay{
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 12px;
+  background: var(--Primary, #F6F8FF);
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+  margin-left: 147vh;
+  position: fixed;}
+.krug1{
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100%;
+}
+.krug2{
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+.tema_div1{
+  display: flex;
+  padding: 10px 5px;
+  justify-content: space-between;
+  align-items: center; 
+  gap: 5px;
+}
+.tema_p{
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.crud-card{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.azkarday1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 535px;
+  border-radius: 28px;
+  padding: 15px 45px;
+  background: var(--Main-color, #FFF);
+  box-shadow: 0px 0px 12px 0px #F1ECEC;
+}
+.arabic{
+  font-family: Manrope;
+  font-size: 19px;
+}
+.language{
+  font-family: Manrope;
+  font-size: 14px;
+}
+.p_glav6{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+  position: absolute;
+  color: var(--Main-color, #ffffff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  z-index: 6;
+}
+
+#dark{
+  background-color: #2C2C2C;
+  color: #ffffff;
+  box-shadow: 0px 0px 7px 1px #00000026;
+
+}
